@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "260524815762",
+    "project_id": "fir-viewpager-62b9c",
+    "storage_bucket": "fir-viewpager-62b9c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:260524815762:android:5b7aa679ab6bf182423d4b",
+        "android_client_info": {
+          "package_name": "com.example.firebaseviewpager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "260524815762-i3rq4lkrb5vv16tam8q6d65h55m744fq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-M3LcsS1zucP3ZhhZDhJo5t0lb8QlDjQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "260524815762-i3rq4lkrb5vv16tam8q6d65h55m744fq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
