@@ -43,16 +43,19 @@ class MainActivity : BaseActivity<ActivityMainBinding>() {
     private fun displayQuotesPager(quotes: List<Quote>, isNameRevealed: Boolean) {
         Log.d("동현"," : $quotes")
         mBinding.viewPager.adapter = QuotesPagerAdapter(
-            quotes
+            quotes, isNameRevealed
         )
     }
 
     private fun parseQuotesJson(json: String) : List<Quote> {
+        Log.d("동현","json : $json")
         val jsonArray = JSONArray(json)
+        Log.d("동현","jsonArray : $jsonArray")
         var jsonList = emptyList<JSONObject>()
 
         for(index in 0 until  jsonArray.length()) {
             val jsonObject = jsonArray.getJSONObject(index)
+            Log.d("동현","jsonObject : $jsonObject")
             jsonObject?.let {
                 jsonList = jsonList + it
             }
